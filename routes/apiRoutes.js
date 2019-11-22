@@ -14,8 +14,7 @@ router.post('/users/authenticate', usersCtrl.authenticate)
 router.get('/products', async(req, res) => {
     try {
         let products = await Products.find();
-        return res.send(products)
-        
+        return res.send(products) 
     }
     catch(err){
         console.log(err)

@@ -52,12 +52,6 @@ class ProductPage extends Component {
     render(){
       return(
         <React.Fragment>
-        {/* <Menu 
-        selectedOption={this.state.selectedOption}
-        toggleCheck={this.toggleCheck}
-        checked={this.state.checked}
-        category={this.category}
-        handleChange={this.handleChange}/> */}
         <div className="grid">
            {this.state.products.map(p => 
            <div className="grid-item">
